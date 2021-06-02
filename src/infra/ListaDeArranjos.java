@@ -1,7 +1,9 @@
 package infra;
 
 import java.util.Scanner;
-import tad_ListaArranjos.ArrayIndexList;
+
+import tad_ListaArranjos.classes.ArrayIndexList;
+
 import static principal.Main.OpcaoInvalida;
 
 public class ListaDeArranjos {
@@ -13,6 +15,7 @@ public class ListaDeArranjos {
 			System.out.println("1. Definição");
 			System.out.println("2. Usar");
 			System.out.println("0. Sair");
+			System.out.print("Escolha das Opções: ");
 			int opc = ler.nextInt();
 
 			switch (opc) {
@@ -27,7 +30,7 @@ public class ListaDeArranjos {
 						+ "A remoção em S é feita pelo método remove (i), onde i é o índice do elemento a ser removido em S, tal que i> = 0 ei <= N.\n"
 						+ "\n=== Visualização === \n"
 						+ "A visualização dos elementos de S são feitas dentro de chaves e separando cada elemento por uma virgula.\n"
-						+ "Ex: [2, 4, 6, 8, 10]\n");
+						+ "Ex: (2, 4, 6, 8, 10)\n");
 				break;
 			}
 			case 2: {
@@ -39,6 +42,7 @@ public class ListaDeArranjos {
 					System.out.println("2. Remover um elemento");
 					System.out.println("3. Visualizar Lista");
 					System.out.println("0. Voltar");
+					System.out.print("Escolha das Opções: ");
 					int opcTest = ler.nextInt();
 
 					switch (opcTest) {

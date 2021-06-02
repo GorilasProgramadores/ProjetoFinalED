@@ -1,4 +1,6 @@
-package tad_ListaArranjos;
+package tad_ListaArranjos.classes;
+
+import tad_ListaArranjos.interfaces.IndexList;
 
 public class ArrayIndexList<E> implements IndexList<E> {
 

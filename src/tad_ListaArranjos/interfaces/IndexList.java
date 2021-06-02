@@ -1,4 +1,4 @@
-package tad_ListaArranjos;
+package tad_ListaArranjos.interfaces;
 
 public interface IndexList<Type> {
 	
